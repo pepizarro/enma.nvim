@@ -21,6 +21,9 @@ using [folke/lazy.nvim](https://github.com/folke/lazy.nvim):
   lazy = false,
   priority = 1000,
   opts = {},
+  init = function()
+      vim.cmd.colorscheme("enma")
+  end,
 }
 ```
 
